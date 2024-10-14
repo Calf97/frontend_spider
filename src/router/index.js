@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router';
+import { createRouter, createWebHashHistory } from 'vue-router';
 import LoginView from '../views/LoginView.vue'; 
 
 const routes = [
@@ -22,7 +22,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory('/frontend_spider/'),
+  history: createWebHashHistory('/frontend_spider/'),
   routes,
 });
 
