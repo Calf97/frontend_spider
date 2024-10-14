@@ -23,8 +23,8 @@
   </div>
 </template>
 <script>
-import NavBar from "@/components/NavBar.vue";
-import ProductCard from "@/components/ProductCard.vue";
+import NavBar from "../components/NavBar.vue";
+import ProductCard from "../components/ProductCard.vue";
 import axios from "axios";
 export default {
   name: "HomeView",
