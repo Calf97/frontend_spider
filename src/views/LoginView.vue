@@ -19,7 +19,7 @@
           </div>
         </Transition>
         <button @click.prevent="auth">Acessar</button>
-        <a href="https://cogbughunt.auth.us-east-2.amazoncognito.com/oauth2/authorize?identity_provider=jumpcloud&redirect_uri=https://calf97.github.io/frontend_spider/home&response_type=token&client_id=538kqpoo5mtfgfe0cg0jlsr1vi&scope=email+openid+profile">Acessar</a>
+        <a href="https://cogbughunt.auth.us-east-2.amazoncognito.com/oauth2/authorize?identity_provider=jumpcloud&redirect_uri=https://calf97.github.io/frontend_spider/#/home&response_type=token&client_id=538kqpoo5mtfgfe0cg0jlsr1vi&scope=email+openid+profile">Acessar</a>
 
         <p class="notUsingSSO">
           Log in with SSO?
